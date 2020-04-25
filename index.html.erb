@@ -1,0 +1,163 @@
+<html>
+<head>
+</head>
+
+<body>
+
+  <header class="Container1">
+
+    <a href="https://polar-hamlet-51314.herokuapp.com/care_centers/" target="_blank">  <%=image_tag("hospicare_logo.png")%></a>
+    <div class="Container1_Blank">
+    </div>
+
+    <div class="Container1_Language">
+      <!--Language DropDown but not working HAHAHA-->
+      <%= select_tag(:locale, options_for_select([['English', 'en'], ['Filipino', 'fil'], ['Bicol', 'bic']])) %>
+    </div>
+
+    <div class="Container1_Services">
+      <a href="https://polar-hamlet-51314.herokuapp.com/lab_services"target="_blank">  Our Services </a>
+    </div>
+
+
+    <div class="Container1_SignUp">
+      <a href="https://hospicare/signup/notyetavailable.com"target="_blank">
+        <div class="SignUpButton">
+          Sign Up
+        </div>
+      </a>
+
+    </div>
+
+
+
+    <div class="Container1_LogIn">
+      <a href="https://hospicare/login/notyetavailable.com"target="_blank">
+        <div class="LogInButton">
+        Log In
+        </div>
+      </a>
+    </div>
+
+    <div class="Container1_QM">
+      <img src="https://img.icons8.com/material-outlined/48/000000/help.png"/>
+    </div>
+
+  </header>
+
+  <div class="Container2">
+    <div class="Container2_Texts">
+      <h1>Keep Track of Your Hospital <br><br>While Giving Utmost Care</h1>
+      <h3>HospiCare is a web appliction that makes hospital management easy, fast and secure
+      Spend less time on scheduling and more time on caring.</h3>
+      <br>
+    <a href="https://polar-hamlet-51314.herokuapp.com/care_centers/"target="_blank">
+      <div class="SignUpButton">
+        Try Now!
+      </div>
+    </a>
+    </div>
+  </div>
+
+  <div class="Container3">
+    <div class="Container3_Texts">
+      LET'S FIGHT COVID-19! Help our frontliners now!
+    </div>
+    <div class="Container3_Help_Donate">
+      <a href="https://www.klook.com/en-PH/blog/donations-frontliners/"target="_blank">
+      <div class="Help_Button">
+         HELP
+      </div>
+        </a>
+    ___
+      <a href="https://donate.unicef.ph/campaign/covid19"target="_blank">
+      <div class="Donate_Button">
+        DONATE
+      </div>
+    </a>
+    </div>
+    <div class="credits">
+      Photo credits: @ainlavendra/Instagram
+    </div>
+  </div>
+
+  <div class="Container4">
+    <div class="Container4_Head">
+      <div class="Container4_Text">
+          <%=image_tag("ExploreHospitalCare.png")%>
+      </div>
+          Explore Hospital Care
+    </div>
+
+    <div class="Container4_Logos">
+      <div class="Logos">
+          <img src="https://img.icons8.com/bubbles/100/000000/couple-bill.png"/> <br>
+          <a href="https://polar-hamlet-51314.herokuapp.com/admissions" target="_blank"> Admissions </a>
+        </a>
+      </div>
+      <div class="Logos">
+          <img src="https://img.icons8.com/bubbles/100/000000/hospital.png"/> <br>
+            <a href="https://polar-hamlet-51314.herokuapp.com/care_centers/" target="_blank"> Care Centers</a>
+      </div>
+      <div class="Logos">
+        <img src="https://img.icons8.com/bubbles/100/000000/overtime.png"/> <br>
+          <a href="https://polar-hamlet-51314.herokuapp.com/lab_schedules" target="_blank">Schedules</a>
+      </div>
+    </div>
+  </div>
+
+  <div class= "Container5">
+
+    <div class= "Container5_Left">
+      <div class= "Container5_Left_Text">
+        <h1>Get Your Hospital Care to Another Level</h1>
+        <br>
+        <li>  <h2> Record Hospital Admission Details Fast</h2>
+        <h3>It just takes a few types and clicks to record details of every admissions:
+        from the room type to the laboratory schedules.</h3>
+        <br>
+        <li>  <h2> Information Protection, Guaranteed </h2>
+        <h3>Every detail is protected. Security for the patients and hospital is assured.</h3>
+        <br>
+        <li>  <h2>Employee Management Made Easier  </h2>
+        <h3>Present employees information conveniently.</h3>
+      </div>
+    </div>
+
+    <div class="Container5_Right">
+    </div>
+  </div>
+
+  <div class="Container6">
+      <%=image_tag("hospicare_logo.png")%>
+      <div class="Container6_Footer">
+
+        <div class="Container1_SignUp">
+        <a href="https://polar-hamlet-51314.herokuapp.com">
+          <div class="SignUpButton">
+            Sign Up
+          </div>
+        </a>
+        </div>
+
+        <div class="Container1_LogIn">
+        <a href="https://polar-hamlet-51314.herokuapp.com">
+          <div class="LogInButton">
+            Log In
+          </div>
+        </a>
+        </div>
+
+        <div class="Container6_AboutUs">
+          About Us
+          <div class="AboutUsLogos"> <br>
+            <a href="https://www.facebook.com/pbmallapre" target="_blank"> <img src="https://img.icons8.com/android/24/000000/facebook-new.png"/>
+            <a href="https://twitter.com/pbmallapre" target="_blank"> <img src="https://img.icons8.com/android/24/000000/twitter.png"/> </a>
+            <a href="https://www.instagram.com/pbma llapre" target="_blank"> <img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"/> </a>
+            <img src="https://img.icons8.com/material-sharp/24/000000/gmail.png"/>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
